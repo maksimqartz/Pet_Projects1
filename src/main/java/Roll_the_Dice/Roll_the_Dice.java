@@ -1,4 +1,4 @@
-package roll_the_dice;
+package Roll_the_Dice;
 
 import java.util.Random;
 
