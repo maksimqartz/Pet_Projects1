@@ -7,7 +7,7 @@ public class Calculator {
 
     public static void main(String[] args) {
 
-        //Scanning the Input and converting it to a variable
+        // Scanning the Input and converting it to a variable
         Scanner userInput = new Scanner(System.in);
 
 
@@ -18,17 +18,17 @@ public class Calculator {
         System.out.println("Please enter your second value");
         double secondValue = userInput.nextDouble();
 
-        //Close Scanner
+        // Close Scanner
         userInput.close();
 
-        //Calculation process
+        // Calculation process
         double sum = firstValue + secondValue;
         double subtraction = firstValue - secondValue;
         double product = firstValue * secondValue;
         double quotient = firstValue / secondValue;
         double remainder = firstValue % secondValue;
 
-        //Print out the results
+        // Print out the results
         System.out.println("Here is your results:");
         System.out.printf("Sum: %f + %f = %f \n", firstValue, secondValue, sum);
         System.out.printf("Subtraction: %f - %f = %f \n", firstValue, secondValue, subtraction);

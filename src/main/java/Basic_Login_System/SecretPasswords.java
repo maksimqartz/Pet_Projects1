@@ -4,10 +4,10 @@ import java.util.HashMap;
 
 public class SecretPasswords {
 
-    //Создаем хеш-карты, которые позволят хранить пары логинь-пароль
+    // Создаем хеш-карты, которые позволят хранить пары логинь-пароль
     HashMap<String, String> loginPasswords = new HashMap<>();
 
-    //Конструктор для данных по входу
+    // Конструктор для данных по входу
     SecretPasswords() {
 
         //Данные
@@ -17,7 +17,7 @@ public class SecretPasswords {
         loginPasswords.put("Oleg", "Oleg");
     }
 
-    //Метод для передачи в другие классы. При обращении к этому защищенному методу, он вернет хеш-карту
+    // Метод для передачи в другие классы. При обращении к этому защищенному методу, он вернет хеш-карту
     protected HashMap getLoginPasswords() {
         return loginPasswords;
     }

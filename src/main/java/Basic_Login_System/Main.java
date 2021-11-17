@@ -3,7 +3,7 @@ package Basic_Login_System;
 public class Main {
     public static void main(String[] args) {
 
-        //Создаем экземпляр по действию с паролем и логином. Create the instance
+        // Создаем экземпляр по действию с паролем и логином. Create the instance
         SecretPasswords secretPasswords = new SecretPasswords();
 
         /*

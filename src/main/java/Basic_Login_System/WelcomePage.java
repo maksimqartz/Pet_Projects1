@@ -8,7 +8,7 @@ public class WelcomePage {
     JFrame frame = new JFrame();
     JLabel welcomeLabel = new JLabel("Welcome!");
 
-    //Получаем имя, вставляем в приветсвие
+    // Получаем имя, вставляем в приветсвие
     WelcomePage(String userLogin) {
 
         welcomeLabel.setBounds(80, 200, 225, 35);
