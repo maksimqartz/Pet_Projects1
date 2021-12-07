@@ -2,7 +2,7 @@ package Roll_the_Dice;
 
 import java.util.Random;
 
-public class Roll_the_Dice {
+public class Main {
 
     public static void main(String[] args) {
 
